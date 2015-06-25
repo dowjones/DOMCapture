@@ -1,0 +1,31 @@
+{
+  "name": "domcam",
+  "version": "0.1.1",
+  "description": "Service to capture DOM element as an image.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dowjones/DOMCapture.git"
+  },
+  "keywords": [
+    "dom",
+    "screen capture",
+    "image",
+    "png",
+    "screenshot"
+  ],
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "casperjs": "^1.1.0-beta3",
+    "debug": "^2.1.0",
+    "express": "^4.9.8",
+    "phantomjs": "^1.9.11",
+    "restpress": "^0.1.2",
+    "tmp": "0.0.24"
+  },
+  "author": "N. Palani Kumanan",
+  "license": "MIT"
+}
